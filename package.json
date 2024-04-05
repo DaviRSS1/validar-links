@@ -1,0 +1,26 @@
+{
+  "name": "davi-primeiro-backend",
+  "version": "1.0.0",
+  "description": "meu primeiro projeto backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js ./arquivos/texto.md",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaviRSS1/validar-links.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaviRSS1/validar-links/issues"
+  },
+  "homepage": "https://github.com/DaviRSS1/validar-links#readme",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
